@@ -138,6 +138,17 @@
                 transparent 100%);
         }
     </style>
+
+<style id="responsive-patch">
+@media (max-width: 600px) {
+  .container { padding: 10px !important; }
+  h1 { font-size: 1.3em; }
+  .question { font-size: 0.95em; }
+  .option { padding: 8px 10px; font-size: 0.9em; }
+  .correct-answer, .no-answer { font-size: 0.9em; }
+  .separator-wrapper { margin: 30px 0 !important; padding: 0 !important; }
+}
+</style>
 </head>
 <body>
     <div class="container">
